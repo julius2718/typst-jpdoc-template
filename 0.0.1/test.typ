@@ -2,8 +2,6 @@
 
 #show: doc => jpdoc(doc)
 
-#set text(font: ("BIZ UDPMincho"), size: 12pt)
-
 #signature(title: "吾輩は猫である", date: "明治38年1月", author: "夏目漱石")
 
 = 第一章
