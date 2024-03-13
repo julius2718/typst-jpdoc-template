@@ -1,4 +1,4 @@
-#import "./main.typ": *
+#import "../main.typ": *
 
 #let jpdoc(doc) = {
 

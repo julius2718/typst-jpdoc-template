@@ -7,5 +7,5 @@ license = "MIT"
 description = "A Typst template for Japanese documents"
 
 [template]
-path = "."
+path = "template"
 entrypoint = "template.typ"

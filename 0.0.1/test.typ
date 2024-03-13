@@ -1,4 +1,4 @@
-#import "template.typ": *
+#import "@local/jpdoc-template:0.0.1": *
 
 #show: doc => jpdoc(doc)
 
