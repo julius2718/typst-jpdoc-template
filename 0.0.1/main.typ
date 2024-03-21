@@ -1,12 +1,12 @@
 
-#let sans(it) = {
-  text(font: ("Hiragino Sans", "BIZ UDPGothic",), size: 1em,)[
+#let sans(it, font: ("Helvetica", "Hiragino Sans", "BIZ UDPGothic")) = {
+  text(font: font)[
     #it
   ]
 }
 
-#let gtheading(it) = {
-  text(sans[#h(-1em) *#it* #h(1em)])
+#let gtheading(it, font: ("Helvetica", "Hiragino Sans", "BIZ UPDGothic")) = {
+  text(sans(font: font)[#h(-1em) *#it* #h(1em)])
 }
 
 #let signature(title: "", date: "", author: "") = {
@@ -24,7 +24,7 @@
 
 #let jpdoc(doc) = {
 
-  set text(font: ("Hiragino Mincho ProN", "BIZ UDPMincho"), size: 11pt,)
+  set text(font: ("STIX Two Text", "Hiragino Mincho ProN", "BIZ UDPMincho"), size: 11pt,)
   show math.equation: set text(font: "STIX Two Math")
   show raw: set text(font: "Osaka", size: 1.4em)
 
